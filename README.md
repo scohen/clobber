@@ -11,10 +11,10 @@ Clobber sits in a space where Apache Bench is too little and JMeter is too much.
 
 Clobber is a command line app with a configuration file, its usage is straightforward. First you need to create a template file so clobber can create many urls. Let's pretend that we have a simple URL scheme like this:
 
-	http://foo.com/users/1/`
-	http://foo.com/users/2/`
-	http://foo.com/users/3/things/`
-	http://foo.com/users/3/other_things/`
+	http://foo.com/users/1/
+	http://foo.com/users/2/
+	http://foo.com/users/3/things/
+	http://foo.com/users/3/other_things/
 
 We want to stress test all of these URLs, and Clobber lets us do it easily. Just create a config file with the following syntax:
 
